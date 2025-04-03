@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signature App</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="DALL·E 2025-03-20 23.16.35 - A clean, minimalist icon for a signature app. The icon should feature a stylized fountain pen or digital pen drawing a smooth, elegant signature on a .webp">
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="header"><center>
+    <h1>Signature App</h1></center>
+    </div>
+  <div class="main">
+    <div class="top">
+      <div class="block">
+        <p>Text Color Picker</p>
+        <input class="form-control" type="color" id="colorpicker">
+      </div>
+      <div class="block">
+        <p>Background</p>
+        <input class="form-control" type="color" id="canvascolor">
+      </div>
+      <div class="block">
+        <p>Font Size</p>
+        <select id="fontpicker">
+          <option value="12">12px</option>
+          <option value="16">16px</option>
+          <option value="20">20px</option>
+          <option value="24">24px</option>
+          <option value="28">28px</option>
+          <option value="32">32px</option>
+          <option value="36">36px</option>
+          <option value="40">40px</option>
+          <option value="44">44px</option>
+          <option value="48">48px</option>
+          <option value="52">52px</option>
+          <option value="56">56px</option>
+          <option value="60">60px</option>
+        </select>
+      </div>
+    </div>
+    <canvas class="canvas" id="mycanvas" width="800" height="500" ></canvas>
+    <div class="bottom">
+      <button type="button" class="btn btn-danger" id="clearbutton">Clear</button>
+      <button type="button" class="btn btn-success" id="savebutton">Save & Download</button>
+      <button type="button" class="btn btn-warning" id="retrivebutton">Retrive Saved Signature</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

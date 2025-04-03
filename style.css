@@ -1,0 +1,42 @@
+.header{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 10px;
+  text-align: center;
+  background-color: aqua;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 25px;
+  border: 2px solid crimson;
+}
+
+
+
+
+.canvas{
+  border: 5px solid #000;
+}
+.top, .bottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 0 20px 0;
+}
+.block, select, input, button{
+  width: 80%;
+}
+.main{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.top>.block{
+  margin: 20px;
+}
+.bottom>button{
+  width: 30%;
+}
+.block>p{
+  margin: 10px auto;
+
+}
